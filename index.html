@@ -1190,7 +1190,8 @@
         @media (max-width: 768px) {
           .hero {
             background-attachment: scroll !important;
-            background-size: 120% !important;
+            background-size: cover !important;  /* FIX: Changed from 120% to cover */
+            background-repeat: no-repeat !important; /* FIX: Added no-repeat */
             background-position: center center !important;
             min-height: 100vh !important;
           }
